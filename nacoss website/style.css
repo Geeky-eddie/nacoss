@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(rgba(4, 30, 8, 0.9),rgba(4,30,8,0.9)),url("pics/generation_google_scholarship_program_black_minority_students.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0;
+}
+.bgimg{
+   
+}
+
+.userpass{
+
+}
+.all3{
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    position: absolute;
+    top: 219px;
+    left: 610px;
+}
+.userpass1{
+    padding-top: 20px;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 10%;
+    position: absolute;
+    top: 112px;
+    left: 632px;
+}
+.almighty{
+    position: relative;
+}
+.user{
+    height: 25px;
+
+}
+.pass{
+    height: 25px;
+}
+.button{
+    padding-top: 10px;
+}

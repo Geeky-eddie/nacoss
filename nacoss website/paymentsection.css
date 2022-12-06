@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap");
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 150%;
+margin: 0;
+
+}
+body{
+    background-image: linear-gradient(rgba(1, 212, 33, 0.9),rgba(4,30,8,1.5)),url("pics/nacos.png");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0;
+    height: 100vh;
+    padding: 32px;
+    font-family: "Libre Franklin", Verdana, sans-serif;
+    color: #697280;
+}
+.navli, li , a{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: grey;
+    transition: 0.7s ease;
+
+}
+.navli li a:hover,
+.navli li a.active{
+    color: rgb(5, 211, 5);
+    text-decoration: underline;
+    font-size: 20px;
+}
+.navcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: rgb(238, 237, 237);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+    position: sticky;
+
+}
+.logo{
+    width: 50%;
+    border-radius: 40px;
+}
+.textpart{
+    text-align: center;
+    font-size: 200%;
+    color: rgb(219, 215, 215); 
+}
+.w-full{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.h-8{
+    font-weight: 400;
+    font-size: 20px;
+}
+.uppercase{
+    font-weight: 700;
+}
+.h-16{
+    font-weight: 400;
+}
+.contain{
+    max-width: 100%;
+    position: absolute;
+    left: 385px;
+}  
+.cc{
+    text-align: center;
+}
+.cpay{
+   width: 65%; 
+   font-weight: 700;
+   text-decoration: none;
+   transition: 0.7s ease;
+}
+button:hover{
+    background-color: rgb(5, 211, 5);
+    text-decoration: none;
+    width: 400px;
+    height: 40px;
+}

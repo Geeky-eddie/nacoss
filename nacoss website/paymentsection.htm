@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment section</title>
+    <link rel="stylesheet" href="paymentsection.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <section class="contain">
+    <div class="w-96 mx-auto border border-gray-400 rounded-lg">
+      <div class="w-full h-auto p-4 flex items-center border-b border-gray-400">
+        <h1 class="w-full cc">Credit Card</h1>
+        <a href="" class="w-full text-right text-sm font-semibold text-indigo-700">Other payment methods</a>
+      </div>
+      <div class="w-full h-auto p-4">
+        <!-- <form action=""> -->
+          <div class="mb-4 px-3 py-1 bg-white rounded-sm border border-gray-300 focus-within:text-gray-900 focus-within:border-gray-500">
+            <label for="cc-name" class="text-xs tracking-wide uppercase font-semibold">Name on card</label>
+            <input id="cc-name" type="text" name="cc-name" class="w-full h-8 focus:outline-none" placeholder="e.g. Student">
+          </div>
+    
+          <div class="mb-4 px-3 py-1 bg-white rounded-sm border border-gray-300 focus-within:text-gray-900 focus-within:border-gray-500">
+            <label for="cc-number" class="text-xs tracking-wide uppercase font-semibold">Credit card number</label>
+            <input id="cc-number" type="text" name="cc-number" class="w-full h-8 focus:outline-none" placeholder="16-digit card number">
+          </div>
+    
+          <div class="flex mb-4 px-3 py-1 bg-white rounded-sm border border-gray-300 focus-within:border-gray-500">
+            <div class="w-full focus-within:text-gray-900">
+              <label for="" class="text-xs tracking-wide uppercase font-semibold">Card expiry</label>
+              <input id="cc-expiry" type="text" class="w-full h-8 focus:outline-none" placeholder="MM / YYYY" maxlength="6">
+            </div>
+    
+            <div class="w-auto focus-within:text-gray-900">
+              <label for="" class="text-xs tracking-wide uppercase font-semibold">CVV</label>
+              <input id="cc-cvv" type="text" class="w-full h-8 focus:outline-none" maxlength="3">
+            </div>
+          </div>
+
+          <a href=""><button class="cpay" type="submit">Confirm Payment</button></a>
+    
+          <!-- <button class="h-16 w-full rounded-sm bg-indigo-600 tracking-wide font-semibold text-white hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-600">Confirm Payment</button> -->
+        </form>
+      </div>
+    </div>
+  </section>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="paymentsection.js"></script>
+</body>
+</html>

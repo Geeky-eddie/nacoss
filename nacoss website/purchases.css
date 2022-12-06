@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 250%;
+margin: 0;
+
+}
+body{
+    background-image: linear-gradient(rgba(1, 212, 33, 0.9),rgba(4,30,8,1.5)),url("pics/nacos.png");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0;
+    height: 100vh;
+}
+.navli, li , a{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: grey;
+    transition: 0.7s ease;
+
+}
+.navli li a:hover,
+.navli li a.active{
+    color: rgb(5, 211, 5);
+    text-decoration: underline;
+    font-size: 20px;
+}
+.navcontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: rgb(238, 237, 237);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+    position: sticky;
+
+}
+.logo{
+    width: 50%;
+    border-radius: 40px;
+}
+.textpart{
+    text-align: center;
+    font-size: 200%;
+    color: rgb(219, 215, 215); 
+}
+.img1{
+    width: 40%;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    opacity: calc( 0.6);
+    background-image: linear-gradient(rgba(1, 212, 33, 0.9),rgba(4,30,8,1.5)),url("pics/istockphoto-889512880-612x612.jpg");
+}
+.firstimg{
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    display: inline-block;
+}
+.txt{
+    color: #fff;
+}
+.button{
+    width: 20%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: 0.7s ease;
+    color: #fff;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(5, 211, 5);
+    width: 15%;
+    height: 45px;
+    color: black;
+    text-decoration: none;
+}
+.txt1{
+    color: #fff;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px;
+}
+@media (max-width: 799px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: rgb(219, 215, 215);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+        margin: 0;
+        padding: 80px 30px 0 0;
+        transition: 0.7s ease;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: black;
+        font-size: 24px;
+        padding: 20px;
+    }
+    #close{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: black;
+        font-size: 24px;
+    }
+    #person{
+        display: none;
+    }
+}
